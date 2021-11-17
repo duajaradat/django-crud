@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block header %}
+<a href="{% url 'snack_list' %}">Snack Menu</a>
+{% endblock header %}
+
 {% block content %}
 
 <h1>Delete Snack</h1>
